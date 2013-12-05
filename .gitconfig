@@ -1,0 +1,7 @@
+[user]
+	email = ijara756@gmail.com
+	name = Ignacio Jara
+[core]
+	editor = nano
+[push]
+	default = simple
