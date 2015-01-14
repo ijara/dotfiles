@@ -3,5 +3,6 @@
 	name = Ignacio Jara
 [core]
 	editor = nano
+
 [push]
 	default = simple
