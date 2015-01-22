@@ -1,2 +1,3 @@
 alias ttytter="ttytter -ansi"
 alias addon-sdk="cd /opt/addon-sdk && source bin/activate; cd -"
+alias frakinpantalla="xset -dpms; xset s off"
