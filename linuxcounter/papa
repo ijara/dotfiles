@@ -1,0 +1,8 @@
+#!/bin/bash
+scriptversion='lico-update.sh version 0.3.20'
+hostname='papa'
+counter_number='563934'
+update_key='484714'
+machine_number='2010302'
+distribution='Arch Linux'
+distribversion='2015'
