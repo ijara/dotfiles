@@ -27,6 +27,7 @@ exec compton --config /home/ijara/dotfiles/compton.conf
 exec start-pulseaudio-x11
 exec xset m 1 10
 exec xset -dpms; xset s off
+exec setxkbmap es
 
 
 ## bordes
