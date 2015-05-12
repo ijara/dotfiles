@@ -2,3 +2,5 @@ alias cal="cal -m"
 alias ttytter="ttytter -ansi"
 alias addon-sdk="cd /opt/addon-sdk && source bin/activate; cd -"
 alias frakinpantalla="xset -dpms; xset s off"
+alias fuck='eval $(thefuck $(fc -ln -1))'
+

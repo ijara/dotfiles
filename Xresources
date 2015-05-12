@@ -7,9 +7,10 @@ Xft.lcdfilter: lcddefault
 
 Xcursor.theme:    Vanilla-DMZ-AA
 
-!urxvt color scheme:
 
-URxvt*background: #2B2B2B
+!urxvt color scheme:
+URxvt*depth: 32
+URxvt*background: [80]#2B2B2B
 URxvt*foreground: #DEDEDE
 
 URxvt*colorUL: #86a2b0
@@ -51,7 +52,7 @@ URxvt.perl-ext-common:  default,matcher,tabbedex
 
 !enabling clickable links:
 
-URxvt.urlLauncher:      /usr/bin/firefox
+URxvt.urlLauncher:      /usr/bin/google-chrome-stable
 URxvt.matcher.button:   1 
 
 !urxvt scrolling options and cursor style:
