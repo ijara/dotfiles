@@ -49,5 +49,12 @@ setxkbmap latam &
 compton --config ~/.compton.conf -b &
 #xset -dpms; xset s off &
 
+##gnome keyring
+
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
+
+ldm -d -g 1000 -u 1000 -p /home/ijara/mnt
+nm-applet &
 
 exec awesome
